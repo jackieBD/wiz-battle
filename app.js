@@ -28,7 +28,7 @@ function attack(){
     render()
     if (wiz.dead){
         document.getElementById("attack-button").classList.add("disabled")
-        setTimeout(endGame, 1500)
+        setTimeout(endGame, 1400)
     }
 
     else if (monster.dead){
@@ -40,7 +40,7 @@ function attack(){
             render()
         }, 1200)}
         else {
-            setTimeout(endGame, 1500)
+            setTimeout(endGame, 1400)
         }
     }
         
